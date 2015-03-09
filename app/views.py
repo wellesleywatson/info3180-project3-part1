@@ -17,7 +17,19 @@ from flask import render_template, request, redirect, url_for
 @app.route('/')
 def home():
     """Render website's home page."""
-    return render_template('home.html')
+    return render_template('welcome.html')
+  
+  
+@app.route('/signup')
+def signup():
+    """Render website's home page."""
+    return render_template('signup.html')
+  
+  
+@app.route('/signup/confirm/<confirmcode>')
+def confirmed():
+    """Render website's home page."""
+    return render_template('welcome.html')
 
 
 @app.route('/about/')
@@ -25,7 +37,10 @@ def about():
     """Render the website's about page."""
     return render_template('about.html')
 
-
+@app.route('/test')
+def test():
+    """Render website's home page."""
+    return render_template('base.html')
 ###
 # The functions below should be applicable to all Flask apps.
 ###

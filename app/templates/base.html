@@ -36,7 +36,10 @@
   </header>
 
   <div id="main" role="main">
-    {% block main %}{% endblock %}
+    {% block main %}
+      <h1>This is my first Page</h1>
+      <input First Name: {{form.first_name(size=30)}}>
+    {% endblock %}
   </div>
 
   <footer>

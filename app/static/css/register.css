@@ -1,0 +1,58 @@
+body
+{
+	
+	background-color: #2B3E50;
+}
+
+
+.container
+{
+  margin-top:50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+h2
+{ 
+  color: #DF691A;
+  display: block;
+  margin-left: 60px;
+}
+
+.image
+{
+    
+    width: 400px;
+    height: 50px;
+    margin: 0 auto 10px;
+    display: block;
+   /* -moz-border-radius: 80%;
+    -webkit-border-radius: 80%;
+    border-radius: 80%;*/
+}
+
+small, .label
+{ 
+  color: #DF691A;
+}
+
+
+#sex, #small
+{
+  color: #DF691A;
+}
+
+
+
+#first_name::-webkit-input-placeholder,
+#last_name::-webkit-input-placeholder,
+#display_name::-webkit-input-placeholder,
+#age::-webkit-input-placeholder,
+#email::-webkit-input-placeholder,
+#password::-webkit-input-placeholder,
+#password_confirmation::-webkit-input-placeholder
+{
+  color: #DF691A;
+}
